@@ -6,7 +6,7 @@ import Point as pt
 import BinaryMask as mc
 import MaskFactory as mf
 import MaskPreProcessor as pp
-import FileterBank as fb
+import FilterBank as fb
 import pandas as pd
 from multiprocessing.dummy import Pool as pl
 from multiprocessing.dummy import Lock as lk
