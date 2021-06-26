@@ -2,6 +2,8 @@
 
 import copy
 
+
+# class representing 2D Point with x,y coordinates. An object of this class can be used to represent a 2D point or can be used to define dimension of a matrix/image.
 class Point2:
 
     def __init__(self, x, y):
@@ -16,7 +18,8 @@ class Point2:
         self.x += val.x
         self.y += val.y
 
-
+        
+# class representing 3D Point with x,y,z coordinates. An object of this class can be used to represent a 3D point or can be used to define dimension of a volume.
 class Point3:
 
     def __init__(self, x, y, z):
