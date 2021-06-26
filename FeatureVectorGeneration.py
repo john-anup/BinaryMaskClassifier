@@ -9,7 +9,7 @@ import Point as pt
 import BinaryMask as mc
 import MaskFactory as mf
 import MaskPreProcessor as pp
-import FileterBank as fb
+import FilterBank as fb
 import pandas as pd
 
 feature_vector = np.zeros((3072, 181), dtype=float)
